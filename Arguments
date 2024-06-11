@@ -1,0 +1,33 @@
+# Arguments:
+  [PROGRAM_ID]
+          The program id that the store is for, if any
+
+Options:
+      --int-secret <INTEGER_SECRETS>
+          An integer secret.
+
+          These must follow the pattern `<name>=<value>`.
+
+          [aliases: i]
+
+      --uint-secret <UNSIGNED_INTEGER_SECRETS>
+          An unsigned integer secret.
+
+          These must follow the pattern `<name>=<value>`.
+
+          [aliases: ui]
+
+      --secrets-path <SECRETS_PATH>
+          A path to load secrets from
+
+  -c, --cluster-id <CLUSTER_ID>
+          The cluster id to perform the operation on
+
+      --authorize-user-execution <AUTHORIZE_USER_EXECUTION>
+          Give execution access to this user on the secret we're uploading
+
+      --dealer-name <DEALER_NAME>
+          Dealer name is used by the program to identify the input owners
+
+  -h, --help
+          Print help (see a summary with '-h')
